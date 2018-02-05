@@ -1,0 +1,62 @@
+﻿生成启动时间为 2017/10/21 0:03:59。
+     1>项目“C:\Users\Segafan\Desktop\ttt\ttt\ttt.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ttt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ttt.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tttDlg.cpp
+         tttDlg.cpp
+     1>tttDlg.cpp(382): warning C4101: “res”: 未引用的局部变量
+     1>tttDlg.cpp(671): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>tttDlg.cpp(786): warning C4244: “=”: 从“__time64_t”转换到“UL”，可能丢失数据
+     1>tttDlg.cpp(862): warning C4101: “i”: 未引用的局部变量
+     1>tttDlg.cpp(906): warning C4101: “zdtime”: 未引用的局部变量
+     1>tttDlg.cpp(908): warning C4101: “zd3”: 未引用的局部变量
+     1>tttDlg.cpp(908): warning C4101: “zd5”: 未引用的局部变量
+     1>tttDlg.cpp(905): warning C4101: “zddate”: 未引用的局部变量
+     1>tttDlg.cpp(908): warning C4101: “zd4”: 未引用的局部变量
+     1>tttDlg.cpp(907): warning C4101: “zdts”: 未引用的局部变量
+     1>tttDlg.cpp(920): warning C4101: “i”: 未引用的局部变量
+     1>tttDlg.cpp(1093): warning C4244: “=”: 从“ULONGLONG”转换到“UL”，可能丢失数据
+     1>tttDlg.cpp(1256): warning C4101: “ret”: 未引用的局部变量
+     1>tttDlg.cpp(1320): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>tttDlg.cpp(1446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>tttDlg.cpp(1525): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>tttDlg.cpp(1658): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>tttDlg.cpp(1776): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>tttDlg.cpp(1791): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>tttDlg.cpp(1806): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>tttDlg.cpp(1964): warning C4244: “初始化”: 从“__time64_t”转换到“UL”，可能丢失数据
+     1>tttDlg.cpp(1965): warning C4244: “初始化”: 从“__time64_t”转换到“UL”，可能丢失数据
+     1>tttDlg.cpp(1986): warning C4244: “初始化”: 从“LONGLONG”转换到“int”，可能丢失数据
+     1>tttDlg.cpp(1987): warning C4244: “参数”: 从“LONGLONG”转换到“unsigned long”，可能丢失数据
+     1>tttDlg.cpp(1996): warning C4101: “i”: 未引用的局部变量
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Segafan\Desktop\ttt\Release\ttt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /MANIFEST /ManifestFile:"Release\ttt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Segafan\Desktop\ttt\Release\ttt.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"WinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Segafan\Desktop\ttt\Release\ttt.lib" /MACHINE:X86 Release\ttt.res
+         Release\BASE64_API.obj
+         Release\OdbcSql.obj
+         Release\stdafx.obj
+         Release\ttt.obj
+         Release\tttDlg.obj
+         Release\VLCPlayer.obj
+         ODBC32.LIB
+         正在生成代码
+         已完成代码的生成
+         ttt.vcxproj -> C:\Users\Segafan\Desktop\ttt\Release\ttt.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Segafan\Desktop\ttt\Release\ttt.exe;#1" /manifest Release\ttt.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ttt.unsuccessfulbuild”。
+         正在对“Release\ttt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Segafan\Desktop\ttt\ttt\ttt.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85

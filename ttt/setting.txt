@@ -1,0 +1,59 @@
+{
+	"camera":	[{
+			"lines":	[{
+					"sx":	589,
+					"sy":	765,
+					"ex":	481,
+					"ey":	180,
+					"MainIndex":	1,
+					"pos":	0
+				}, {
+					"sx":	369,
+					"sy":	685,
+					"ex":	403,
+					"ey":	164,
+					"MainIndex":	3,
+					"pos":	20
+				}],
+			"near":	1,
+			"far":	50.100000,
+			"height":	3,
+			"url":	"192.168.1.100:8899",
+			"Record":	0
+		}, {
+			"lines":	[{
+					"sx":	497,
+					"sy":	172,
+					"ex":	495,
+					"ey":	677,
+					"MainIndex":	4,
+					"pos":	-1
+				}],
+			"near":	2,
+			"far":	20,
+			"height":	6,
+			"url":	"rtsp://admin:admin@192.168.1.12:554/play?stream=0",
+			"Record":	0
+		}, {
+			"lines":	[{
+					"sx":	486,
+					"sy":	118,
+					"ex":	598,
+					"ey":	667,
+					"MainIndex":	2,
+					"pos":	10
+				}],
+			"near":	2,
+			"far":	20,
+			"height":	6,
+			"url":	"./test.h264",
+			"Record":	0
+		}, {
+			"lines":	[],
+			"near":	2,
+			"far":	20,
+			"height":	6,
+			"url":	"./test.h264"
+		}],
+	"maskvalues":	[10, 10, 10, 30, 30, 30]
+}
